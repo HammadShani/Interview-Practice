@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router";
 
 const Navbar = () => {
-  let NavLinks = ["Home", "React", "JavaScript", "Css", "Html"];
+  let NavLinks = ["Home", "React", "JavaScript", "Css", "Html" , "Juniour"];
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
