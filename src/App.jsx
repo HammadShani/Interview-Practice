@@ -7,6 +7,7 @@ import JavaScriptPage from './pages/JavaScriptPage'
 import ReactPage from './pages/ReactPage'
 import Home from './pages/Home'
 import Juniour from './pages/Juniour'
+import Logical from './pages/Logical'
 const App = () => {
   return (
     <div>
@@ -21,6 +22,7 @@ const App = () => {
           <Route path='/javascript' element={<JavaScriptPage />} />
           <Route path='/react' element={<ReactPage />} />
           <Route path='/juniour' element={<Juniour />} />
+          <Route path='/logical' element={<Logical />} />
         </Routes>
       
       
